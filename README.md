@@ -77,7 +77,10 @@ The following commands are available to interact with the file system:
 
 ### Setup  
 1. Clone this repository:
+   ```bash
    git clone https://github.com/MahadCode/File-System-Simulation-with-PowerShell-Interface.git
+
+2. Compile Project:
    ```bash
    g++ main.cpp fileSystem.cpp diskManager.cpp Directory.cpp File.cpp -o FileSystemSim
    ./FileSystemSim
