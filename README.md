@@ -4,6 +4,11 @@ This project implements a simulation of a file system in C++ using a binary file
 
 ---
 
+# Features
+
+**Sector-Level Operations**  
+  - All file and directory operations are performed at the sector level, offering a realistic simulation of disk-based file systems.
+
 ## Project Structure  
 
 The project is designed with a hierarchical class structure:  
@@ -73,7 +78,6 @@ The following commands are available to interact with the file system:
 ### Setup  
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-username/file-system-simulation.git
-   cd file-system-simulation
-   g++ main.cpp FileSystem.cpp DiskManager.cpp Directory.cpp File.cpp -o FileSystemSim
+  git clone https://github.com/MahadCode/File-System-Simulation-with-PowerShell-Interface.git
+   g++ main.cpp fileSystem.cpp diskManager.cpp Directory.cpp File.cpp -o FileSystemSim
    ./FileSystemSim
