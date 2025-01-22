@@ -76,8 +76,8 @@ The following commands are available to interact with the file system:
 - PowerShell for running the interactive command-line interface.  
 
 ### Setup  
-1. Clone this repository:  
+1. Clone this repository:
+   git clone https://github.com/MahadCode/File-System-Simulation-with-PowerShell-Interface.git
    ```bash
-  git clone https://github.com/MahadCode/File-System-Simulation-with-PowerShell-Interface.git
    g++ main.cpp fileSystem.cpp diskManager.cpp Directory.cpp File.cpp -o FileSystemSim
    ./FileSystemSim
